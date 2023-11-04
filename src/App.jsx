@@ -11,7 +11,7 @@ import BtnVolver from "./componentes/BtnVolver"
 function App() {
   return (
     <>
-      <Header titulo="Cotiza el seguros de tu casa " />
+      <Header titulo="Cotiza el seguro de tu casa " />
       <div className="container">
         <BrowserRouter>
           <Routes>
