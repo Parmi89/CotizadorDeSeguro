@@ -51,7 +51,7 @@ function CotizarPoliza() {
             <td className="text-center">{selectedData.tipo}</td>
             <td className="text-center">{selectedData.factor}</td>
             <td className="text-center">{selectedData.metrosCuadrados}</td>
-            <td className="text-center">$ {cotizacionObj.resultado.toFixed(2)}</td>
+            <td className="text-center">{cotizacionObj.resultado.toFixed(2)}</td>
             <td className="text-center"><p>Podras ver tus cotizaciones en<br></br> <strong>"Tu historial"</strong></p>
             </td>
           </tr>
